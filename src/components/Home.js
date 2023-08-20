@@ -8,7 +8,7 @@ function Home(){
     }
 
     return(
-        <Stack gap={3} className="landing-stack my-5 py-5">
+        <Stack gap={3} className="landing-stack">
             <Image src={require(`../assets/watgpt-logo.png`)} width={200} alt="logo"/>
             <p className='tagline'>Creating GPT Powered Solutions For Every Student</p>
             <p className="col-md-6">We develop GPT trained software and chatbots that are practical to use for University of Waterloo students. We are a student design team at the University of Waterloo and a member of the Sedra Student Design Centre. </p>

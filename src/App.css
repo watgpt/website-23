@@ -1,4 +1,8 @@
 /* Navbar and Footer */
+body {
+    background: linear-gradient(to bottom, #021029 80%, #1b4ba6);
+}
+
 .navbar-title {
     color: white !important;
     font-weight: 500 !important;
@@ -6,7 +10,7 @@
 }
   
 .footer .social-links .badge {
-    background-color: black !important;
+    background-color: transparent !important;
     border-radius: 50%;
     width: 40px;
     height: 40px;
