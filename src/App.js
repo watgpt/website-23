@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 import {Route, Routes } from 'react-router-dom';
-
 import Home from './components/Home';
 import AppNavbar from './components/AppNavbar';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
-    //use navbar component
-    <>
+    <div className="mx-5 my-3">
     <AppNavbar/>
-    
-    <div className="container">
+    <div>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
     </div>
-  
-    </>
-    
+    <Footer />
+    </div>
   );
 }
 

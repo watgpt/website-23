@@ -1,0 +1,15 @@
+.landing-stack Button {
+    width: 11rem;
+    border-radius: 2rem;
+    border-width: 0.1rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.tagline {
+    font-weight: 500;
+}
