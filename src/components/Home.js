@@ -4,7 +4,7 @@ import '../styles/Home.css';
 
 function Home(){
     const handleJoinClick = () => {
-        window.open('https://www.apple.com/ca/', '_blank');
+        window.open('https://forms.gle/qKeWfYvpepC6rQGo7', '_blank');
     }
 
     return(

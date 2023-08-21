@@ -1,13 +1,7 @@
 /* Navbar and Footer */
 body {
-    background-image: url("assets/inprogress2.gif");
-    background-size: contain; /* Adjust the sizing of the background image */
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* This keeps the background fixed while scrolling */
-    background-position: right top;
+    background: linear-gradient(to bottom, #010711 85%, #07193f, #102855, #153878, #1f4d9c);
 }
-
-/* ... your existing styles ... */  
 
 .navbar-title {
     color: white !important;
@@ -26,4 +20,9 @@ body {
   
 .footer .social-links .badge a {
     color: white;
+}
+
+.watgpt-main {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
 }

@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="mx-5 my-4 d-flex flex-column" style={{ minHeight: '98vh' }}>
       <AppNavbar />
-      <div className="flex-grow-1 d-flex align-items-center justify-content-center" style={{ paddingTop: '200px', paddingBottom: '200px' }}>
+      <div className="flex-grow-1 d-flex align-items-center justify-content-center watgpt-main">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

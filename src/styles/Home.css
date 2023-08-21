@@ -5,11 +5,7 @@
     font-weight: 500;
 }
 
-p {
-    font-size: 0.9rem;
-    font-weight: 400;
-}
-
 .tagline {
-    font-weight: 500;
+    font-weight: 600;
+    font-family: 'DM Mono', monospace;
 }
