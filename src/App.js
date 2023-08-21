@@ -13,6 +13,10 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </div>
+
+      <div className="custom-background">
+        {/* Content of the new div */}
+      </div>
       
       <Footer />
      

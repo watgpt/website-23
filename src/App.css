@@ -1,7 +1,13 @@
 /* Navbar and Footer */
 body {
-    background: linear-gradient(to bottom, #010711, #07193f, #102855, #153878, #1f4d9c);
+    background-image: url("assets/inprogress2.gif");
+    background-size: contain; /* Adjust the sizing of the background image */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This keeps the background fixed while scrolling */
+    background-position: right top;
 }
+
+/* ... your existing styles ... */  
 
 .navbar-title {
     color: white !important;
