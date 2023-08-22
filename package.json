@@ -1,5 +1,5 @@
 {
-  "homepage": "http://watgpt.github.io/website-23",
+  "homepage": "http://watgpt.github.io/website-23/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

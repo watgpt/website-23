@@ -11,6 +11,7 @@ function App() {
       <div className="flex-grow-1 d-flex align-items-center justify-content-center watgpt-main">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/website-23" element={<Home />} />
         </Routes>
       </div>
 
